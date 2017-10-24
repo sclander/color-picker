@@ -10,16 +10,50 @@
 			<img src="top.png" alt="top">
 			<img src="middle.png" alt="middle">
 			<img src="bottom.png" alt="bottom"> -->
-			<canvas id="canvas" height="800" width="1024"></canvas>
-			<canvas id="canvasCopy" height="800" width="1024"></canvas>
+			<canvas id="canvas" height="600" width="900"></canvas>
+			<canvas id="top" height="600" width="900"></canvas>
+			<canvas id="middle" height="600" width="900"></canvas>
+			<canvas id="bottom" height="600" width="900"></canvas>
 		</div>
 		<div class="ctrl-container">
-			<button>Red</button>
-			<button>Green</button>
-			<button>Blue</button>
-			<button>Purple</button>
-			<button>Yellow</button>
-			<button>Grey</button>
+			<h3>Top Panel</h3>
+			<div class="color-input">
+				Select Color:
+				<div class="color-palette" style="display: none">
+					<div class="arrow-up"></div>
+					<div id="topRed" class="color red"></div>
+					<div id="topGreen" class="color green"></div>
+					<div id="topBlue" class="color blue"></div>
+					<div id="topPurple" class="color purple"></div>
+					<div id="topYellow" class="color yellow"></div>
+					<div id="topGrey" class="color grey"></div>
+				</div>
+			</div>
+			<h3>Middle Panel</h3>
+			<div class="color-input">
+				Select Color:
+				<div class="color-palette" style="display: none">
+					<div id="middleRed" class="color red">Red</div>
+					<div id="middleGreen" class="color green">Green</div>
+					<div id="middleBlue" class="color blue">Blue</div>
+					<div id="middlePurple" class="color purple">Purple</div>
+					<div id="middleYellow" class="color yellow">Yellow</div>
+					<div id="middleGrey" class="color grey">Grey</div>
+				</div>
+			</div>
+			<h3>Bottom Panel</h3>
+			<div class="color-input">
+				Select Color:
+				<div class="color-palette" style="display: none">
+					<div id="bottomRed" class="color red">Red</div>
+					<div id="bottomGreen" class="color green">Green</div>
+					<div id="bottomBlue" class="color blue">Blue</div>
+					<div id="bottomPurple" class="color purple">Purple</div>
+					<div id="bottomYellow" class="color yellow">Yellow</div>
+					<div id="bottomGrey" class="color grey">Grey</div>
+					<div class="color blak gradient-border"></div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

@@ -1,5 +1,98 @@
+* {
+	font-family: Helvetica, sans-serif;
+}
+
 canvas {
 	position: fixed;
-	top: 0;
-	left: 0;s
 }
+
+#canvas {
+	background-image: url("grey_fanny_pack.png");
+	background-repeat: no-repeat;
+}
+
+.img-container {
+	height: 800px;
+	width: 900px;
+	float: left;
+}
+
+.ctrl-container {
+	width: 200px;
+	float: left;
+	padding: 10px;
+}
+
+.color-input {
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	color: #888;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	text-align: center;
+	width: 150px;
+}
+
+.color-palette {
+	background: #233;
+	border-radius: 10px;
+	min-width: 224px;
+	padding: 10px;
+	position: absolute;
+	top: 65px;
+	z-index: 1;
+}
+
+.color {
+	border-radius: 2px;
+	float: left;
+	height: 50px;
+	margin: 3px;
+	width: 50px;
+}
+
+.red {
+	background: linear-gradient(to right, rgba(255, 0, 100, .6), rgba(255, 0, 100, .6)), rgb(200, 200, 200); 
+}
+
+.green {
+	background-color: rgba(70, 200, 50, 100);
+}
+
+.blue {
+	background-color: rgba(30, 50, 255, 100);
+}
+
+.purple {
+	background-color: rgba(200, 60, 255, 100);
+}
+
+.yellow {
+	background-color: rgba(230, 255, 20, 100);
+}
+
+.grey {
+	background-color: rgba(130, 130, 150, 100);
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 30px solid #233;
+  position: absolute;
+  top: -30px;
+}
+
+.gradient-border {
+	background-image: linear-gradient(white, transparent, white), linear-gradient(white, transparent, white);
+	background-position:0 0, 100% 0;
+	background-size: 2px 100%;
+	background-repeat: no-repeat;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-radius: 0;
+}
+
