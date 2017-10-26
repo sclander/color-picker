@@ -1,0 +1,22 @@
+{
+  "name": "color-picker",
+  "version": "1.0.0",
+  "description": "color picker prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclander/color-picker.git"
+  },
+  "author": "slander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sclander/color-picker/issues"
+  },
+  "homepage": "https://github.com/sclander/color-picker#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

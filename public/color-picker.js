@@ -89,68 +89,65 @@ $(function(){
 
     // Palette Functions
     $('#topRed').mouseover( function() {
-      animateColor('#top','top.png' ,{r: 255, g:0, b:100, a: 100});
+      animateColor('#top','top_800x500.png' ,{r: 255, g:0, b:100, a: 100});
     });
     $('#topGreen').mouseover( function() {
-      animateColor('#top', 'top.png', {r:70, g:200, b:50, a: 100});
+      animateColor('#top', 'top_800x500.png', {r:70, g:200, b:50, a: 100});
     });
     $('#topBlue').mouseover( function() {
-      animateColor('#top', 'top.png', {r:30, g:50, b:255, a: 100});
+      animateColor('#top', 'top_800x500.png', {r:30, g:50, b:255, a: 100});
     });
     $('#topPurple').mouseover( function() {
-      animateColor('#top', 'top.png', {r:200, g:60, b:255, a: 100});
+      animateColor('#top', 'top_800x500.png', {r:200, g:60, b:255, a: 100});
     });
     $('#topYellow').mouseover( function() {
-      animateColor('#top', 'top.png', {r:230, g:255, b:20, a: 100});
+      animateColor('#top', 'top_800x500.png', {r:230, g:255, b:20, a: 100});
     });
     $('#topGrey').mouseover( function() {
-      animateColor('#top', 'top.png', {r:130, g:130, b:150, a: 100});
+      animateColor('#top', 'top_800x500.png', {r:130, g:130, b:150, a: 100});
     });
     $('#middleRed').mouseover( function() {
-      animateColor('#middle','middle.png' ,{r: 255, g:0, b:100, a: 100});
+      animateColor('#middle','middle_800x500.png' ,{r: 255, g:0, b:100, a: 100});
     });
     $('#middleGreen').mouseover( function() {
-      animateColor('#middle', 'middle.png', {r:70, g:200, b:50, a: 100});
+      animateColor('#middle', 'middle_800x500.png', {r:70, g:200, b:50, a: 100});
     });
     $('#middleBlue').mouseover( function() {
-      animateColor('#middle', 'middle.png', {r:30, g:50, b:255, a: 100});
+      animateColor('#middle', 'middle_800x500.png', {r:30, g:50, b:255, a: 100});
     });
     $('#middlePurple').mouseover( function() {
-      animateColor('#middle', 'middle.png', {r:200, g:60, b:255, a: 100});
+      animateColor('#middle', 'middle_800x500.png', {r:200, g:60, b:255, a: 100});
     });
     $('#middleYellow').mouseover( function() {
-      animateColor('#middle', 'middle.png', {r:230, g:255, b:20, a: 100});
+      animateColor('#middle', 'middle_800x500.png', {r:230, g:255, b:20, a: 100});
     });
     $('#middleGrey').mouseover( function() {
-      animateColor('#middle', 'middle.png', {r:130, g:130, b:150, a: 100});
+      animateColor('#middle', 'middle_800x500.png', {r:130, g:130, b:150, a: 100});
     });
     $('#bottomRed').mouseover( function() {
-      animateColor('#bottom','bottom.png' ,{r: 255, g:0, b:100, a: 100});
+      animateColor('#bottom','bottom_800x500.png' ,{r: 255, g:0, b:100, a: 100});
     });
     $('#bottomGreen').mouseover( function() {
-      animateColor('#bottom', 'bottom.png', {r:70, g:200, b:50, a: 100});
+      animateColor('#bottom', 'bottom_800x500.png', {r:70, g:200, b:50, a: 100});
     });
     $('#bottomBlue').mouseover( function() {
-      animateColor('#bottom', 'bottom.png', {r:30, g:50, b:255, a: 100});
+      animateColor('#bottom', 'bottom_800x500.png', {r:30, g:50, b:255, a: 100});
     });
     $('#bottomPurple').mouseover( function() {
-      animateColor('#bottom', 'bottom.png', {r:200, g:60, b:255, a: 100});
+      animateColor('#bottom', 'bottom_800x500.png', {r:200, g:60, b:255, a: 100});
     });
     $('#bottomYellow').mouseover( function() {
-      animateColor('#bottom', 'bottom.png', {r:230, g:255, b:20, a: 100});
+      animateColor('#bottom', 'bottom_800x500.png', {r:230, g:255, b:20, a: 100});
     });
     $('#bottomGrey').mouseover( function() {
-      animateColor('#bottom', 'bottom.png', {r:130, g:130, b:150, a: 100});
+      animateColor('#bottom', 'bottom_800x500.png', {r:130, g:130, b:150, a: 100});
     });
 
-
-
-
-    initColor('#top', {r: 255, g: 0, b: 0, a: 100}, 'top.png');
+    initColor('#top', {r: 255, g: 0, b: 0, a: 100}, 'top_800x500.png');
     $('#top').data("color", {r: 255, g: 0, b: 0, a: 100});
-    initColor('#middle', {r: 0, g: 255, b: 0, a: 100}, 'middle.png');
+    initColor('#middle', {r: 0, g: 255, b: 0, a: 100}, 'middle_800x500.png');
     $('#middle').data("color", {r: 0, g: 255, b: 0, a: 100});
-    initColor('#bottom', {r: 0, g: 0, b: 255, a: 100}, 'bottom.png');
+    initColor('#bottom', {r: 0, g: 0, b: 255, a: 100}, 'bottom_800x500.png');
     $('#bottom').data("color", {r: 0, g: 0, b: 255, a: 100});
 
 }); // end $(function(){});
